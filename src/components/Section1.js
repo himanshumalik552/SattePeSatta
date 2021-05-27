@@ -5,7 +5,7 @@ import '../Mix.css';
 const Section1 = (props) => {
     return (
    <>
- <Container style= {{textAlign: "center"}}>
+ <Container style= {{textAlign: "center" ,marginBottom:"20px"}}>
 <div className="S1main_div" >
   <div className="S1inner_div">
       <h1 class="">{props.header}</h1>
@@ -16,7 +16,6 @@ const Section1 = (props) => {
 </div>
  </Container>
  </>
-    )
-}
+    )}
 
 export default Section1;

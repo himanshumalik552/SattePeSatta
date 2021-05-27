@@ -7,6 +7,9 @@ import CityUp from "../src/components/City/CityUp";
 import History from "./components/History";
 import CityCards from "./components/CityCards";
 import Footer from "./components/Footer";
+import AdminLogin from "./components/Admin/AdminLogin";
+import Admin from "./components/Admin/Admin";
+
 function App() {
   return (
     <>
@@ -14,7 +17,9 @@ function App() {
       <Switch>
         <CityCards exact path="/" component={CityCards} />
         <Route exact path="/CityUP" component={CityUp} />
+        <Route exact path="/AdminLogin" component={AdminLogin} />
         <Route exact path="/History" component={History} />
+        <Route exact path="/Admin" component={Admin} />
         <Redirect to="/" />
       </Switch>
       <Footer/>

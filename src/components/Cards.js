@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+import Nav from "react-bootstrap/Nav";
 import { Card, } from "react-bootstrap";
 
 
@@ -9,14 +9,14 @@ const Cards = (props) => {
   return (
     <>
     
-            <Card className="" style={{ width: "16rem", marginTop: "10px" }}>
+            <Card className="" style={{ width: "18rem", marginTop: "10px" }}>
               <Card.Img
                 variant="top"
                 src= {props.img}/>
               <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>{props.text}</Card.Text>
-                <Button variant="primary">See Result</Button>
+                <Nav.Link className="link" href="/Admin">Submit</Nav.Link>
               </Card.Body>
             </Card>
          
