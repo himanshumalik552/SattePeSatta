@@ -15,7 +15,7 @@ const CityCards = () => {
         {CardData.map((value,index) =>
 
          <Col>
-         <Cards key={index} img={value.img} title={value.title} text={value.text} />
+         <Cards key={index} img={value.img} title={value.title} text={value.text} link={value.link} />
          </Col>
           )};
         </Row>
