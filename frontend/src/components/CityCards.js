@@ -9,7 +9,7 @@ import Section1 from './Section1'
 const CityCards = () => {
   return (
     <>
-    <Section1 header="Welcome TO Home Section" title="Dreams Goes True Here "/>
+    <Section1 header="Welcome TO Satta up" title="Dreams Goes True Here "/>
       <Container style={{marginBottom:"30px"}} >
         <Row style={{marginLeft: "22px", marginTop: "22px"}}>
         {CardData.map((value,index) =>
